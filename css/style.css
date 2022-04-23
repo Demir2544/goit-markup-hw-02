@@ -1,0 +1,195 @@
+:root {
+    --accent-color: #2196F3;
+    --secondary-color: #757575;
+    --title-color: #212121;
+    --color-for-dark: #FFFFFF;
+}
+
+/* сброс нижнего подчёркивания */
+.link {
+    text-decoration: none;
+}
+/* сброс маркеров в списках */
+.list {
+    list-style: none;
+}
+body {
+font-family: 'Roboto', sans-serif;
+}
+/* ============ стили к блоку header ============ */
+.logo {
+font-family: 'Raleway', sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color: black;
+}
+.menu-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+}
+.menu-link:hover,
+.menu-link:focus {
+color: var(--accent-color);
+}
+.header-contact-tel {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--secondary-color);
+}
+.header-contact-tel:hover,
+.header-contact-tel:focus {
+color: var(--accent-color)
+}
+.header-contact-mail {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--secondary-color);
+}
+
+.header-contact-mail:hover,
+.header-contact-mail:focus {
+    color: var(--accent-color)
+}
+
+/* ============ /стили к блоку header ============ */
+
+
+/* ============ стили к блоку hero ============ */
+.main-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36; 
+/* color: #FFFFFF; */
+text-transform: uppercase;
+}
+.modal-btn {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.85;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color: #188CE8;
+cursor: pointer;
+}
+.accent {
+color: var(--accent-color);
+}
+/* ============ /стили к блоку hero ============ */
+
+
+/* ============ стили к блоку description ======== */
+.sub-title-advantages {
+font-weight: 700;
+font-size: 16px;
+line-height: 1;
+letter-spacing: 0.03em;
+color: var(--title-color);
+}
+.description-advantages {
+font-weight: 400;
+font-size: 14px;
+line-height: 2;
+letter-spacing: 0.03em;
+color: var(--secondary-color);
+}
+/* ============ /стили к блоку description ====== */
+
+/* ============ стили к блоку operation ====== */
+
+.operation-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+color: var(--title-color);
+}
+/* ============ /стили к блоку operation ====== */
+
+/* ============ стили к блоку our team ====== */
+
+.team-name {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18em;
+letter-spacing: 0.03em;
+color: var(--title-color);
+}
+.team-position {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18em;
+letter-spacing: 0.03em;
+color: var(--secondary-color);
+}
+/* ============ /стили к блоку our team ====== */
+
+/* ============ стили к блоку footer ====== */
+.bottom-site {
+background-color:#2F303A;;
+}
+.logo-for-dark {
+color: var(--color-for-dark);
+}
+.footer-contact {
+font-style: inherit;
+font-weight: 400;
+font-size: 14px;
+line-height: 2;
+letter-spacing: 0.03em;
+color: var(--color-for-dark);
+}
+.footer-address:hover,
+.footer-address:focus {
+    color: var(--accent-color);
+}
+
+.footer-mail:hover,
+.footer-mail:focus {
+    color: var(--accent-color);
+}
+
+.footer-tel:hover,
+.footer-tel:focus {
+    color: var(--accent-color);
+}
+/* ============ /стили к блоку footer ====== */
+
+
+/* ============ стили к странице портфолио ====== */
+
+.project-type {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+color: var(--title-color);
+}
+.project-type:hover,
+.project-type:focus {
+background-color: var(--accent-color);
+color: var(--color-for-dark);
+}
+.project-name {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--title-color);
+}
+.card-project-type {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: var(--secondary-color);
+}
+/* ============ /стили к странице портфолио ====== */
