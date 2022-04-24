@@ -16,6 +16,13 @@
 body {
 font-family: 'Roboto', sans-serif;
 }
+.section-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+color: var(--title-color);
+}
 /* ============ стили к блоку header ============ */
 .logo {
 font-family: 'Raleway', sans-serif;
@@ -36,28 +43,28 @@ color: #212121;
 .menu-link:focus {
 color: var(--accent-color);
 }
-.header-contact-tel {
+.header-tel {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--secondary-color);
 }
-.header-contact-tel:hover,
-.header-contact-tel:focus {
+.header-tel:hover,
+.header-tel:focus {
 color: var(--accent-color)
 }
-.header-contact-mail {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--secondary-color);
+.header-mail {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--secondary-color);
 }
 
-.header-contact-mail:hover,
-.header-contact-mail:focus {
-    color: var(--accent-color)
+.header-mail:hover,
+.header-mail:focus {
+color: var(--accent-color)
 }
 
 /* ============ /стили к блоку header ============ */
@@ -103,16 +110,6 @@ color: var(--secondary-color);
 }
 /* ============ /стили к блоку description ====== */
 
-/* ============ стили к блоку operation ====== */
-
-.operation-title{
-font-weight: 700;
-font-size: 36px;
-line-height: 1.16;
-letter-spacing: 0.03em;
-color: var(--title-color);
-}
-/* ============ /стили к блоку operation ====== */
 
 /* ============ стили к блоку our team ====== */
 
@@ -145,22 +142,29 @@ font-weight: 400;
 font-size: 14px;
 line-height: 2;
 letter-spacing: 0.03em;
+}
+.footer-address {
 color: var(--color-for-dark);
 }
 .footer-address:hover,
 .footer-address:focus {
-    color: var(--accent-color);
+color: var(--accent-color);
 }
-
+.footer-mail {
+color: var(--color-for-dark);
+}
 .footer-mail:hover,
 .footer-mail:focus {
-    color: var(--accent-color);
+color: var(--accent-color);
 }
-
+.footer-tel {
+color: var(--color-for-dark);
+}
 .footer-tel:hover,
 .footer-tel:focus {
-    color: var(--accent-color);
+color: var(--accent-color);
 }
+
 /* ============ /стили к блоку footer ====== */
 
 
@@ -178,6 +182,10 @@ color: var(--title-color);
 background-color: var(--accent-color);
 color: var(--color-for-dark);
 }
+.button-accent {
+background-color: var(--accent-color);
+color: var(--color-for-dark);
+}
 .project-name {
 font-weight: 700;
 font-size: 18px;
@@ -192,4 +200,5 @@ line-height: 1.87;
 letter-spacing: 0.03em;
 color: var(--secondary-color);
 }
+
 /* ============ /стили к странице портфолио ====== */
