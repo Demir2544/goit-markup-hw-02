@@ -30,14 +30,14 @@ font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
-color: black;
+color: #000000 ;
 }
 .menu-link {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #212121;
+color: var(--title-color);
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -71,19 +71,24 @@ color: var(--accent-color)
 
 
 /* ============ стили к блоку hero ============ */
+.hero {
+background-color: #2F303A;
+}
 .main-title {
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36; 
-/* color: #FFFFFF; */
+color: var(--color-for-dark);
 text-transform: uppercase;
+text-align: center;
 }
 .modal-btn {
+font-family: inherit;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.85;
 letter-spacing: 0.06em;
-color: #FFFFFF;
+color: var(--color-for-dark);
 background-color: #188CE8;
 cursor: pointer;
 }
@@ -100,6 +105,7 @@ font-size: 16px;
 line-height: 1;
 letter-spacing: 0.03em;
 color: var(--title-color);
+text-transform: uppercase;
 }
 .description-advantages {
 font-weight: 400;
@@ -112,7 +118,12 @@ color: var(--secondary-color);
 
 
 /* ============ стили к блоку our team ====== */
-
+.our-team {
+background-color: #F5F4FA;
+}
+.our-team-card {
+    background-color: var(--color-for-dark);
+}
 .team-name {
 font-weight: 500;
 font-size: 16px;
@@ -137,7 +148,7 @@ background-color:#2F303A;;
 color: var(--color-for-dark);
 }
 .footer-contact {
-font-style: inherit;
+font-family: inherit;
 font-weight: 400;
 font-size: 14px;
 line-height: 2;
@@ -151,14 +162,14 @@ color: var(--color-for-dark);
 color: var(--accent-color);
 }
 .footer-mail {
-color: var(--color-for-dark);
+color: rgba(255, 255, 255, 0.6);
 }
 .footer-mail:hover,
 .footer-mail:focus {
 color: var(--accent-color);
 }
 .footer-tel {
-color: var(--color-for-dark);
+color: rgba(255, 255, 255, 0.6);
 }
 .footer-tel:hover,
 .footer-tel:focus {
@@ -171,11 +182,13 @@ color: var(--accent-color);
 /* ============ стили к странице портфолио ====== */
 
 .project-type {
+font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 letter-spacing: 0.03em;
 color: var(--title-color);
+cursor: pointer;
 }
 .project-type:hover,
 .project-type:focus {
